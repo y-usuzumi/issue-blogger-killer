@@ -33,3 +33,4 @@ main = do
     void $ req createIssue ctx
     (p :: Int) <- randomRIO (5000000, 40000000)
     printf "Sleeping for %f secs" (fromIntegral p/1000000 :: Double)
+    threadDelay p
