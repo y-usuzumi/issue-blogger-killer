@@ -24,6 +24,8 @@ dependencies:
 - base >= 4.7 && < 5
 - bytestring
 - lens
+- random
+- random-strings
 - text
 - wreq
 
@@ -33,6 +35,7 @@ library:
 default-extensions:
 - RecordWildCards
 - OverloadedStrings
+- ScopedTypeVariables
 - TypeFamilies
 
 executables:
